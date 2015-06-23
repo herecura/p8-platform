@@ -1,0 +1,17 @@
+pkgbase = libplatform
+	pkgdesc = Platform support library used by libCEC and binary add-ons for Kodi
+	pkgver = 1.0.9
+	pkgrel = 1
+	url = https://github.com/Pulse-Eight/platform
+	arch = i686
+	arch = x86_64
+	license = GPL
+	makedepends = cmake
+	depends = gcc-libs
+	provides = libplatform
+	conflicts = libplatform
+	source = https://github.com/Pulse-Eight/platform/archive/1.0.9.tar.gz
+	sha256sums = 276dec2b8653fcf9bf636ac929bb014cc0963ccacd67179705d39301a9533b1e
+
+pkgname = libplatform
+
