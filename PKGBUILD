@@ -2,8 +2,8 @@
 # Maintainer: Cedric Girard <girard.cedric@gmail.com>
 
 pkgname=libplatform
-pkgver=1.0.9
-pkgrel=2
+pkgver=1.0.10
+pkgrel=1
 pkgdesc="Platform support library used by libCEC and binary add-ons for Kodi"
 arch=('i686' 'x86_64')
 url="https://github.com/Pulse-Eight/platform"
@@ -13,7 +13,7 @@ conflicts=('libplatform')
 makedepends=('cmake')
 depends=('gcc-libs')
 source=(https://github.com/Pulse-Eight/platform/archive/${pkgver}.tar.gz)
-sha256sums=('276dec2b8653fcf9bf636ac929bb014cc0963ccacd67179705d39301a9533b1e')
+sha256sums=('6ba3239cb1c0a5341efcf9488f4d3dfad8c26d6b2994b2b2247e5a61568ab5cd')
 
 build() {
   cd "$srcdir"/platform-${pkgver}
