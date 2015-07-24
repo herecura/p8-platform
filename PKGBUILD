@@ -1,5 +1,6 @@
+# $Id$
 # Maintainer: BlackIkeEagle <ike DOT devolder AT gmail DOT com>
-# Maintainer: Cedric Girard <girard.cedric@gmail.com>
+# Contributor: Cedric Girard <girard.cedric@gmail.com>
 
 pkgname=libplatform
 pkgver=1.0.10
