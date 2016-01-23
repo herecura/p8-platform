@@ -1,1 +1,1 @@
-update_pkgver=$(wget -q -O- https://github.com/Pulse-Eight/platform/releases/ | grep -m1 -ie 'releases\/tag' | sed 's,.*tag\/\([0-9a-z\.]*\).*,\1,')
+update_pkgver=$(wget -q -O- https://github.com/Pulse-Eight/platform/releases/ | grep -m1 -ie 'releases\/tag' | sed 's,.*tag\/p8-platform-\([0-9a-z\.]*\).*,\1,')
