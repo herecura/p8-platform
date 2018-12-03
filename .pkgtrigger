@@ -1,0 +1,8 @@
+dependencypackages=(
+    'libcec'
+)
+
+pkgupdate=$(cat <<EOF
+update_pkgrel="\$(expr \$pkgrel + 1)"
+EOF
+)
