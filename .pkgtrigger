@@ -3,6 +3,7 @@ dependencypackages=(
 )
 
 pkgupdate=$(cat <<EOF
+update_pkgver="\$pkgver"
 update_pkgrel="\$(expr \$pkgrel + 1)"
 EOF
 )
